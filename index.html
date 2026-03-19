@@ -129,5 +129,11 @@
       document.body.appendChild(script);
 
     </script>
+    <script>
+  window.onload = function() {
+    // Focus the game window immediately upon loading
+    document.getElementsByTagName('canvas')[0].focus();
+  };
+</script>
   </body>
 </html>
